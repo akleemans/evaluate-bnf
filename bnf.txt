@@ -1,0 +1,24 @@
+#def bnf1
+sentence := _ | "hello" sentence | "(" sentence ")" sentence
+
+#def bnf2
+sentence := "hello" | sentence sentence | "(" sentence | sentence ")"
+
+#tests
+(a) hello
+(b) hello(hello)
+(c) ((hello)
+(d) ()
+(e) (hello)hello
+(f) ((hello))hello
+(g) hello()hello
+(h) (hello hello)
+(i) )hello(
+(j) hello)(hello
+(k) hello()
+(l) (hello)hello(hello)
+(m) (hello((hello)hello
+(n) (((hello))))
+(o) ((((hello))))
+(p) ((((hello())))
+(q) (((hello())))
