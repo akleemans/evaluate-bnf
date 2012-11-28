@@ -55,7 +55,7 @@ This should yield the following result:
     Test (e) (hello)hello <-- bnf1 bnf2 
     Test (f) ((hello))hello <-- bnf1 bnf2 
     Test (g) hello()hello <-- bnf1 
-    Test (h) (hello <-- bnf2 
+    Test (h) (hellohello) <-- bnf1 bnf2
     Test (i) )hello( <-- 
     Test (j) hello)(hello <-- bnf2 
     Test (k) hello() <-- bnf1 

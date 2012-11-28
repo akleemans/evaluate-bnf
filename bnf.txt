@@ -12,7 +12,7 @@ sentence := "hello" | sentence sentence | "(" sentence | sentence ")"
 (e) (hello)hello
 (f) ((hello))hello
 (g) hello()hello
-(h) (hello hello)
+(h) (hellohello)
 (i) )hello(
 (j) hello)(hello
 (k) hello()
